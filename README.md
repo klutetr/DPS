@@ -1,4 +1,4 @@
-# DPS - In-Memory Database with Transaction Support
+# DPS - In-Memory Database
 
 This project implements an in-memory key-value database that supports atomic transactions. The database allows for operations like get, put, commit, and rollback within transaction boundaries.
 
@@ -27,6 +27,4 @@ value = db.get("A")    # Get value of A (returns 5)
 
 ## Future Assignment Improvements
 
-1. Add support for nested transactions to make the assignment more challenging and realistic.
-2. Include concurrency requirements to test students' understanding of thread safety and synchronization.
-3. Expand the value types beyond integers to include strings, lists, or JSON objects, making it more practical for real-world scenarios.
+Add a required testing file to the project so students can practice writing unit tests.
